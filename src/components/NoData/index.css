@@ -1,0 +1,29 @@
+.nodata-bg-cont {
+  background-color: #0c0026;
+  min-height: 100vh;
+}
+.no-data-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.button3 {
+  border: 2px solid cyan;
+  color: cyan;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin: 60px;
+}
+.button3:hover {
+  color: #ff9900;
+}

@@ -1,0 +1,27 @@
+.not-found-p {
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.not-found-h1 {
+  padding-bottom: 5px !important;
+}
+
+.not-found-btn {
+  width: 100px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .not-found-btn {
+    width: 130px !important;
+  }
+}

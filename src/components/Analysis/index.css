@@ -1,0 +1,152 @@
+.analysis-bg-cont {
+  background-color: #0c0026;
+  min-height: 100vh;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media (min-width: 768px) {
+  .analysis-bg-cont {
+    width: 100%;
+  }
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.analysis-cont {
+  width: 90%;
+  align-self: center;
+}
+
+.analysis-header {
+  width: 90% !important;
+}
+
+.analysis-success-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.analysis-h1 {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.piechart-analysis-cont {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.analysis-h1-extra {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.commits-per-lang-cont {
+  width: 100%;
+}
+
+.commit-history-h1 {
+  text-align: center !important;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.commit-history-cont {
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .analysis-cont {
+    width: 85%;
+  }
+  .analysis-header {
+    width: 85% !important;
+  }
+  .analysis-h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .analysis-h1-extra {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+  .piechart-analysis-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .commits-per-repos-cont {
+    align-items: flex-start;
+    width: 90%;
+    align-self: center;
+  }
+}
+.empty-view {
+  text-align: center;
+}
+.empty-repo-img {
+  min-width: 250px;
+  max-width: 400px;
+}
+.retry-btn {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
+}
+@media screen and (min-width: 576px) {
+  .empty-repo-img {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .empty-repo-img {
+    width: 550px;
+  }
+}
+.failure-view {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-data-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.no-data-view img {
+  min-width: 250px;
+  max-width: 400px;
+}
+.owner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.owner img {
+  min-width: 150px;
+  max-width: 250px;
+  border-radius: 50%;
+}

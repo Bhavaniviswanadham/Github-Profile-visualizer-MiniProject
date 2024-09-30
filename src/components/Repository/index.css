@@ -1,0 +1,73 @@
+.repo-bg-cont {
+  background-color: #0c0026;
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 10%;
+}
+@media (min-width: 768px) {
+  .repo-bg-cont {
+    width: 100%;
+  }
+}
+.repositories {
+  padding: 5%;
+}
+.repos-list-cont {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty-repo-img {
+  width: 300px;
+}
+.empty-repo-cont {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .empty-repo-img {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .empty-repo-img {
+    width: 550px;
+  }
+}
+.retry-btn {
+  background: #ffffff;
+  color: black;
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+}
+.owner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.owner img {
+  min-width: 150px;
+  max-width: 250px;
+  border-radius: 50%;
+}
+.empty-repo-img {
+  min-width: 250px;
+  max-width: 400px;
+}
+.empty-repo-cont h1,
+p {
+  font-family: 'Roboto';
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.quarter-commit-cont {
+  width: 100%;
+  background-color: #132240;
+  border-radius: 8px;
+  border: 0px;
+  box-shadow: 0px 4px 16px 0px #0f172a;
+  padding: 30px 20px 5px 5px;
+  margin-top: 30px;
+}
+
+.quarter-p {
+  color: #3b82f6;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .quarter-p {
+    font-size: 16px;
+  }
+  .quarter-commit-cont {
+    margin-top: 15px;
+  }
+}
